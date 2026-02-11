@@ -1,3 +1,46 @@
+/* base */
+@import '../base/layout.css';
+
+/* vendors */
+
+/* components */
+
+/* ↓ CUSTOM ↓ */
+
 body {
-  background-color: lightgreen;
+  background-color: bisque;
 }
+
+.container {
+  border: 1px solid blue;
+}
+
+.row {
+  background-color: cyan;
+}
+
+.row > * {
+  background-color: yellow;
+}
+
+/* -- HEADER: start -- */
+
+/* -- HERO: start -- */
+
+/* -- ABOUT_ME: start -- */
+
+/* -- SERVICES: start -- */
+
+/* -- RESUME: start -- */
+
+/* -- FREELANCE: start -- */
+
+/* -- PORTFOLIO: start -- */
+
+/* -- TESTIMONIALS: start -- */
+
+/* -- BLOG: start -- */
+
+/* -- CONTACTS: start -- */
+
+/* -- FOOTER: start -- */
