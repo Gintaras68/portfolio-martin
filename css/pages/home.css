@@ -7,6 +7,22 @@
 
 /* ↓ CUSTOM ↓ */
 
+body {
+  background-color: bisque;
+}
+
+.container {
+  border: 1px solid blue;
+}
+
+.row {
+  background-color: cyan;
+}
+
+.row > * {
+  background-color: yellow;
+}
+
 /* -- HEADER: start -- */
 
 /* -- HERO: start -- */
