@@ -1,3 +1,9 @@
+:root {
+  --color-main: #f34236;
+  --color-dark: #111111;
+  --color-background: #f3f3f3;
+}
+
 body,
 body * {
   margin: 0;
@@ -7,4 +13,18 @@ body * {
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-main {
+  background-color: var(--color-main);
+  color: white;
+}
+
+.bg-dark {
+  background-color: var(--color-dark);
+  color: white;
+}
+
+.bg-light {
+  background-color: var(--color-background);
 }
