@@ -12,37 +12,37 @@ import { services } from "../components/services.js";
 //  -- SERVICES: start --
 const servicesData = [
   {
-    icon: 'icon-desktop',
+    icon: 'desktop',
     title: 'Search Optimization',
     descr:
       'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
   },
   {
-    icon: 'icon-layers',
+    icon: 'layers',
     title: 'Logo &amp; Identity',
     descr:
       'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
   },
   {
-    icon: 'icon-hotairballoon',
+    icon: 'hotairballoon',
     title: 'Graphics Design',
     descr:
       'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
   },
   {
-    icon: 'icon-mobile',
+    icon: 'mobile',
     title: 'Fully Responsive',
     descr:
       'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
   },
   {
-    icon: 'icon-tools-2',
+    icon: 'tools-2',
     title: 'Advanced Options',
     descr:
       'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
   },
   {
-    icon: 'icon-scissors',
+    icon: 'scissors',
     title: 'Reasonable Pricing',
     descr:
       'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
