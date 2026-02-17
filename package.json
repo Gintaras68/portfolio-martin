@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "dead-server --host=localhost",
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "test:watch": "jest --watchAll --passWithNoTests",
+     "test:all": "jest --watchAll --passWithNoTests --coverage",
+     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gintaras",
   "license": "MIT",

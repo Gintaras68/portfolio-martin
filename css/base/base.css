@@ -28,3 +28,42 @@ body {
 .bg-light {
   background-color: var(--color-background);
 }
+
+.none {
+  display: none;
+}
+
+.section-title {
+  display: inline-block;
+  position: relative;
+  color: var(--color-dark);
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+  span {
+    color: var(--color-main);
+  }
+
+  &::after {
+    position: absolute;
+    content: '';
+    width: 1.7em;
+    height: 0.08em;
+    bottom: -0.3em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-dark);
+  }
+
+  &.section-title--left {
+    text-align: left;
+    text-transform: capitalize;
+
+    &::after {
+      left: 0;
+      transform: none;
+    }
+  }
+}
