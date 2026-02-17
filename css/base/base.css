@@ -29,6 +29,10 @@ body {
   background-color: var(--color-background);
 }
 
+.none {
+  display: none;
+}
+
 .section-title {
   display: inline-block;
   position: relative;

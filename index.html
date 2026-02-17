@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- HEADER: start -->
-    <header class="container">
+    <header class="container none">
       <div class="row">
         <div class="col-12">
           <img src="#" alt="logo" class="logo" />
@@ -26,7 +26,7 @@
 
     <main>
       <!-- HERO: start -->
-      <section class="container bg-dark">
+      <section class="container bg-dark none">
         <div class="row">
           <div class="col-12 col-lg-10 ml-lg-1 col-xl-8 ml-xl-2">HERO</div>
         </div>
@@ -34,7 +34,7 @@
       <!-- HERO: end -->
 
       <!-- ABOUT_ME: start -->
-      <section class="container">
+      <section class="container none">
         <div class="row">
           <div class="col-12 col-lg-5"><img src="#" alt="portretas" /></div>
           <div class="col-12 col-lg-7">
@@ -52,12 +52,7 @@
           <h2 class="col-12 section-title"><span>My</span> Services</h2>
         </div>
         <div class="row">
-          <div class="col-12 col-sm-6 col-lg-4">1 OPt</div>
-          <div class="col-12 col-sm-6 col-lg-4">2 L&I</div>
-          <div class="col-12 col-sm-6 col-lg-4">3 Gr.D</div>
-          <div class="col-12 col-sm-6 col-lg-4">4 F.Res</div>
-          <div class="col-12 col-sm-6 col-lg-4">5 AdOpt</div>
-          <div class="col-12 col-sm-6 col-lg-4">6 Pric</div>
+          <div id="services-block" class="col-12 services"></div>
         </div>
       </section>
       <!-- SERVICES: end -->
@@ -141,6 +136,6 @@
       </div>
     </footer>
     <!-- FOOTER: end -->
-    <script src="./js/pages/home.js"></script>
+    <script src="./js/pages/home.js" type="module"></script>
   </body>
 </html>
