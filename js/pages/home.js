@@ -1,6 +1,9 @@
 // Imports
 import { services } from "../components/services.js";
 import { servicesData } from "../../data/servicesData.js";
+import { socialMetrics } from "../components/socialMetrics.js";
+import { socialMetricsData } from "../../data/socialMetricsData.js";
+
 
 // Execution
 
@@ -9,6 +12,9 @@ import { servicesData } from "../../data/servicesData.js";
 //  -- HERO: start --
 
 //  -- ABOUT_ME: start --
+
+//  -- SOCIAL_METRICS: start --
+socialMetrics("metrics_block", socialMetricsData);
 
 //  -- SERVICES: start --
 services("services-block", servicesData);
